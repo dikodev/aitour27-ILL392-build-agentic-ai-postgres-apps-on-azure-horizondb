@@ -45,19 +45,17 @@ How can you ship agentic apps fast if your data layer keeps fragmenting? Learn h
 
 If you're following along during a live session:
 
-1. Step 1
-2. Step 2
-3. Open [`instructions/`](instructions/README.md) when this session includes
-   attendee step-by-step guidance
+1. Open the lab environment and sign in with the provided credentials.
+2. Follow the setup guidance in [instructions/README.md](instructions/README.md)
+3. Open and follow the exercises in the [`instructions/`](instructions/) folder.
 
 #### On your own
 
-If you're learning at your own pace:
+If you're learning at your own pace at home:
 
 1. Clone this repository
-2. Set up your environment
-3. Follow the session guidance in [`instructions/`](instructions/README.md), or
-   use the linked docs-site entry point when this repository uses that pattern
+2. Set up your environment by following the steps in [the self deployment guide](setup/SETUP.md)
+3. Follow the session guidance in [`instructions/`](instructions/README.md), then work through the 2 notebooks in the `src/` folder sequentially.
 
 ### 🎯 Learning outcomes
 

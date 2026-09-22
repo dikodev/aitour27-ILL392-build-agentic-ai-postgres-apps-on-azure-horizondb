@@ -15,9 +15,9 @@
 
 1. [Part 0 - Sign in to Azure and setup Azure resources](/instructions/part-0-setup-azure-resources.md)
 2. [Part 1 - Connect to your Azure HorizonDB database using VS Code Extension for PostgreSQL](/instructions/part-1-connect-horizondb-to-vscode.md)
-    1. [Open VS Code and set up database connection to Azure PostgreSQL](instructions/part-1-connect-horizondb-to-vscode.md#open-vs-code-and-set-up-database-connection-to-azure-postgresql)
-    2. [Create Connection](instructions/part-1-connect-horizondb-to-vscode.md#create-connection-to-horizondb)
-    3. [Explore VS Code Extension for PostgreSQL Dashboard](instructions/part-1-connect-horizondb-to-vscode.md#explore-vs-code-extension-for-postgresql-dashboard)
+    1. [Open VS Code and set up database connection to Azure PostgreSQL](/part-1-connect-horizondb-to-vscode.md#open-vs-code-and-set-up-database-connection-to-azure-postgresql)
+    2. [Create Connection](/part-1-connect-horizondb-to-vscode.md#create-connection-to-horizondb)
+    3. [Explore VS Code Extension for PostgreSQL Dashboard](/part-1-connect-horizondb-to-vscode.md#explore-vs-code-extension-for-postgresql-dashboard)
 3. [Part 2 and 3 - Data Setup and Agentic App Development](/instructions/part-2-and-3-data-setup-and-agentic-app-development.md)
 
 ## Next Steps

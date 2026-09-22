@@ -1,5 +1,3 @@
 # Infrastructure
 
-<!-- AI TOUR TEMPLATE PLACEHOLDER: remove this folder when the session needs no infrastructure. -->
-
-Use this folder for deployment or runtime infrastructure, including Skillable-specific files when needed.
+This folder contains the Bicep templates and other infrastructure-related files used to deploy and manage the required Azure resources for this lab session like the PostgreSQL database and HorizonDB instance.

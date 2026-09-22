@@ -1,5 +1,9 @@
-# Source
+# Source Code
 
-<!-- AI TOUR TEMPLATE PLACEHOLDER: remove this folder when the session needs no source files. -->
+This contains the Python source code for the lab exercises through 3 Jupyter notebooks.
 
-Use this folder for sample code, demos, or runnable source material.
+| File | Exercise | Description |
+|---|---|---|
+| `1-data-setup.ipynb` | Part 2| Sets up the sample data for the lab steps. |
+| `2-app-development.ipynb` | Part 3 | Contains the agentic AI application development lab steps. |
+| `3-diagnostics.ipynb` | Optional | Contains the diagnostics and troubleshooting lab steps for the agentic application. |

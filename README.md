@@ -46,7 +46,7 @@ How can you ship agentic apps fast if your data layer keeps fragmenting? Learn h
 If you're following along during a live session:
 
 1. Open the lab environment and sign in with the provided credentials.
-2. Follow the setup guidance in [instructions/README.md](instructions/README.md)
+2. Follow the setup guidance in [`instructions/README.md`](instructions/README.md)
 3. Open and follow the exercises in the [`instructions/`](instructions/) folder.
 
 #### On your own
@@ -55,7 +55,7 @@ If you're learning at your own pace at home:
 
 1. Clone this repository
 2. Set up your environment by following the steps in [the self deployment guide](setup/SETUP.md)
-3. Follow the session guidance in [`instructions/`](instructions/README.md), then work through the 2 notebooks in the `src/` folder sequentially.
+3. Follow the session guidance in [`instructions/`](instructions/README.md), then work through the 2 notebooks in the [`src/`](/src/) folder sequentially.
 
 ### 🎯 Learning outcomes
 
@@ -83,8 +83,6 @@ Pick your next step based on your learning style:
 | **[Microsoft Foundry Community](https://aka.ms/MicrosoftFoundryDiscord-AITour27)** | Connect with other learners and experts in our Discord community |
 
 ### 🌟 Microsoft Learn MCP Server
-
-<!-- Remove this section if the Microsoft Learn MCP Server is not relevant to the session. -->
 
 The Microsoft Learn MCP Server gives your AI agent direct access to Microsoft's official documentation — grounded, up-to-date answers about the topics in this session.
 

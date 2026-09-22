@@ -6,7 +6,7 @@ If you are trying this lab at home, make sure to complete all these steps before
 
 - An **Azure subscription** with access to **Azure OpenAI** and **Azure HorizonDB**.
 - **Visual Studio Code** with the **Jupyter** and **PostgreSQL** extensions installed.
-- A **Python 3.11+** environment with the packages listed in [requirements.txt](requirements.txt):
+- A **Python 3.11+** environment with the packages listed in [`/requirements.txt`](/requirements.txt):
   - Database connectivity: `psycopg[binary,pool]`
   - LLM and agent framework: `openai`, `agent-framework`
   - Long-term memory: `mem0`
@@ -29,9 +29,17 @@ Complete the following steps inside the root directory of the repository.
     - Windows (PowerShell): `.\.venv\Scripts\Activate.ps1`
     - macOS/Linux: `source .venv/bin/activate`
 
-1. Upgrade pip: `python -m pip install --upgrade pip`
+1. Upgrade pip:
 
-1. Install the required packages: `python -m pip install -r requirements.txt`
+    ```powershell
+    python -m pip install --upgrade pip
+    ```
+
+1. Install the required packages:
+
+    ```powershell
+    python -m pip install -r requirements.txt
+    ```
 
 1. In Visual Studio Code, select the `.venv` interpreter for your notebooks (Command Palette -> **Python: Select Interpreter**).
 
@@ -62,6 +70,6 @@ Complete the following steps inside the root directory of the repository.
 1. After the provisioning is complete, your repo root `.env` is created and updated with the environment configuration and is ready for the notebooks.
 
 > [!IMPORTANT]
-> Allow your IP on HorizonDB. The post-provision hook does not configure HorizonDB networking. Before you can connect from your machine, open the deployed HorizonDB cluster in the Azure portal, go to Settings > Networking, and add a firewall rule that allow-lists your current public IP address. Without this step, notebook connections will fail with a network/timeout error.
+> **Allow your IP on HorizonDB**. The post-provision hook does not configure HorizonDB networking. Before you can connect from your machine, open the deployed HorizonDB cluster in the Azure portal, go to **Settings > Networking**, and add a firewall rule that allow-lists your current public IP address. Without this step, notebook connections will fail with a network/timeout error.
 
-You can now proceed and start working on the first exercise in the lab. Navigate to the [instructions](/instructions/README.md).
+You can now proceed and start working on the first exercise in the lab. Navigate to the [`instructions/`](/instructions/) folder.

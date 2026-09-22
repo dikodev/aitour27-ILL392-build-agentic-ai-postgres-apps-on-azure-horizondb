@@ -20,6 +20,16 @@
     3. [Explore VS Code Extension for PostgreSQL Dashboard](/part-1-connect-horizondb-to-vscode.md#explore-vs-code-extension-for-postgresql-dashboard)
 3. [Part 2 and 3 - Data Setup and Agentic App Development](/instructions/part-2-and-3-data-setup-and-agentic-app-development.md)
 
+## What you will build
+
+- A **Microsoft Agent Framework** agent that can reason over U.S. case law stored in Azure HorizonDB.
+- **Hybrid retrieval**: BM25 full-text search (`pg_textsearch`) combined with vector similarity search (`pgvector` + `pg_diskann` for ANN with advanced filtering).
+- **GraphRAG** over a citation graph built with **Apache AGE**, letting the agent expand from anchor cases to surrounding precedents in a single Cypher-style traversal.
+- **In-database entity extraction** with the `azure_ai` extension, so structured fields (`holding`, `issues`, `statutes_cited`, `disposition`) are pulled directly inside Postgres instead of round-tripping opinions back to the application.
+- **External evidence ingestion** through a tool that calls the Open-Meteo weather archive API.
+- **Long-term memory** with **Mem0**, where memory embeddings are stored back in the same HorizonDB instance using `pgvector`. No separate vector database.
+- A **Gradio chat UI** that surfaces a live Tool Trace panel and the agent's growing memory store next to the conversation.
+
 ## Next Steps
 
 > Start with Part 0 to sign in to Azure and set up your Azure resources.

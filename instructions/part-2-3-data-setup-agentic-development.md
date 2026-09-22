@@ -19,13 +19,13 @@ Additionally, there is a third, optional notebook, which is a diagnostics notebo
 
 1. Expand the **Code** folder and look for a file name **1-data-setup.ipynb** (Notebook 1), then double-click the file.
 
-    ![Notebook 1](media/notebook-1.png)
+    ![Notebook 1](media/notebook-1-data-setup.png)
 
 1. This will open the first notebook. Read each section of the notebook and follow the in-line instructions.
 
 1. Once you complete Notebook 1, return to the **Code** folder and open the second notebook with the file name **2-app-development.ipynb** (Notebook 2).  Again, follow the in-line instructions and that will complete the lab.
 
-    ![Notebook 2](media/notebook-2.png)
+    ![Notebook 2](media/notebook-2-app-development.png)
 
     > [!alert]
     > At this point, continue the lab following the instructions in the Notebook 1 in VS Code.

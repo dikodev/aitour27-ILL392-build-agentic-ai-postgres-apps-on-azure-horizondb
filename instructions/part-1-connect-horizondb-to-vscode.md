@@ -28,7 +28,7 @@ In this part, we will connect to your Azure HorizonDB database using the VS Code
 
 1. In the next few steps, we are going to use the VS Code Extension for PostgreSQL to add a connection to our HorizonDB database. Leave the **".env"** file open, we will use it in the next few steps. On the left navigation, select the **elephant** icon.
 
-    ![Elephant Icon](media/ele-icon-1.png)
+    ![Elephant Icon](media/elephant-icon.png)
 
 ## Create Connection to HorizonDB
 
@@ -54,11 +54,11 @@ In this part, we will connect to your Azure HorizonDB database using the VS Code
     > [!NOTE]
     > **Note:** during the lab creation process we automatically allow-listed this VM's IP address to allow connections into your instance of HorizonDB. In the future, you will need to ensure you take this step to open access to connect to your HorizonDB database either directly with a query editor tool, or programmatically.
 
-    ![Add Connection Test Connection](instructions342798/add-conn-test-conn.png)
+    ![Add Connection Test Connection](media/add-conn-test-conn.png)
 
 1. Lastly, click **"Save & Connect"** to save the connection and open the connection to the HorizonDB database
 
-    ![Save and Connect](instructions342798/save-and-connect.png)
+    ![Save and Connect](media/save-and-connect.png)
 
 **Congratulations, you just signed in to your Azure HorizonDB database using the VS Code Extension for PostgreSQL!**
 
@@ -66,15 +66,15 @@ In this part, we will connect to your Azure HorizonDB database using the VS Code
 
 1. Now that we have our connection created, let's explore the VS Code Extension for PostgreSQL and our HorizonDB database.  First, right-click on your **"lab"** connection we just created, and select the "Dashboard" option from the context menu:
 
-    ![Select Dashboard](instructions342798/select-dashboard.png)
+    ![Select Dashboard](media/select-dashboard.png)
 
 1. When the Dashboard loads, you will see it provides a robust set of performance details such as **wait events, disk i/o, transactions, storage, and more**.
 
-    ![Dashboard Main](instructions342798/dashboard-main.png)
+    ![Dashboard Main](media/dashboard-main.png)
 
 1. To continue exploring the VS Code Extension for PostgrSQL, now expand the **"Databases"** node under the **"lab"** connection.  Look for the **"postgres"** database, right-click it and select **"New Query"** from the context menu.
 
-    ![New Query](instructions342798/new-query.png)
+    ![New Query](media/new-query.png)
 
 1. Now run the following query by copying and pasting the following SQL block into the query editor window, then click the green play arrow on the top right to execute the SQL statement.  The purpose of this SQL query is just to illustrate the process of running queries and seeing results using the VS Code Extension for PostgreSQL.
 
@@ -90,7 +90,7 @@ In this part, we will connect to your Azure HorizonDB database using the VS Code
         version() AS postgres_version;
     ```
 
-    ![Empty Query Example](instructions342798/empty-query-example.png)
+    ![Empty Query Example](media/empty-query-example.png)
 
 ## Next Step
 

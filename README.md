@@ -67,9 +67,13 @@ By the end of this session, you will be able to:
 
 ### 💻 Technologies used
 
-- Azure HorizonDB (Postgres)
+- Azure HorizonDB with rich AI extension surface (`vector`, `pg_textsearch`, `age`, `pg_diskann`, `azure_ai`)
 - Microsoft Agent Framework
 - Apache AGE
+- Azure OpenAI
+- Mem0
+- Gradio
+- Python and Jupyter notebooks (driven by `psycopg`, `openai`, `agent-framework`, `mem0`, `gradio`)
 - External weather API
 
 ### 📚 Continue your learning

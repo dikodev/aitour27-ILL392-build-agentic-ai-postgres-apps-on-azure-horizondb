@@ -57,6 +57,8 @@ Pick your next step based on your learning style:
 |----------|-----------------|
 | **[Microsoft Learn](https://learn.microsoft.com)** | Official documentation and guided learning paths on these topics |
 | **[AI Tour 2027 Resource Center](https://aka.ms/aitour27-resource-center)** | Additional session repos and materials from AI Tour 2027 |
+| **[Agentic Advisor Solution Accelerator](https://aka.ms/agentic-advisor)** | Pre-built solution accelerator for building agentic AI applications |
+| **[GraphRAG solution for Azure Database for PostgreSQL](https://aka.ms/pg-graphrag)** | An end-to-end example of applying the GraphRAG technique to the Postgres Legal Research Copilot application to boost the quality of LLM responses and the accuracy of information retrieval pipeline |
 | **[Microsoft Foundry Community](https://aka.ms/MicrosoftFoundryDiscord-AITour27)** | Connect with other learners and experts in our Discord community |
 
 ### 🌟 Microsoft Learn MCP Server

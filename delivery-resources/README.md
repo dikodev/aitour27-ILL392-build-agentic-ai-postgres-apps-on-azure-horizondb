@@ -50,6 +50,16 @@ The lab session is divided into multiple sections including 17 slides to cover k
 | 15:00 - 70:00 | Lab Steps & Completion |
 | 70:00 - 75:00 | Wrap up & Q&A |
 
+## Demo reproducibility
+
+This hands-on lab uses the runnable notebooks in [`src/`](/src/) rather than a separate live demo. Before delivery, complete the environment steps in [`setup/SETUP.md`](/setup/SETUP.md), confirm the required Azure resources and environment values are available, and run the notebooks in order:
+
+1. `1-data-setup.ipynb`
+2. `2-app-development.ipynb`
+3. `3-diagnostics.ipynb` when diagnostics or troubleshooting are needed
+
+Use the attendee guidance in [`instructions/`](/instructions/) to verify the database connection and the transition from setup to the notebook exercises.
+
 ## Support
 
 Content owner or contact: [Ismaël Mejía](https://github.com/iemejia) or open an issue on this repository and tag him for assistance.

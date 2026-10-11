@@ -193,7 +193,7 @@ The chat app brings the architecture together. The conversation shows the answer
 
 1. Run **the next code cell**.
 2. Wait for `Running on local URL: http://127.0.0.1:7860`.
-3. Open a browser from the desktop and go to [http://localhost:7860](http://localhost:7860).
+3. Open a browser from the desktop on the lab VM and in a new tab go to `[http://localhost:7860](http://localhost:7860)`.
 4. Check that the conversation, **Tool Trace**, and **Long-term Memory** panels load.
 
     ![Chat app with Tool Trace and Long-term Memory panels](media/notebook-2-chat-app.png)
